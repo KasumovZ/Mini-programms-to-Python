@@ -1,30 +1,44 @@
 # IT-11-22
 # Коды мини-программ
 1
+
 print("Имя: Зияудин")
+
 print("Почта: ziyaudink2005@mail.ru")
 
 
 2
+
 name=input("Введите имя:")
+
 print("Привет", name + "!" )
 
 
 
 3
+
 import math
+
 a=float(input("Введите длину:"))
+
 b=float(input("Введите ширину:"))
+
 S=(a*b)
+
 print("Площадь:", S, "метров")
 
 
 
 4
+
 import math
+
 a=float(input("Введите длину в футах:"))
+
 b=float(input("Введите ширину в футах:"))
+
 S=float((a*b)*2.2956841138665E-5)
+
 print("Площадь %.10f акров." % S)
 
 
