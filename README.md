@@ -180,6 +180,7 @@ print("Итог",l,"Л/100")
 
 
 
+
 12
 
 a1=float(input("Введите широту 1:"))
@@ -199,6 +200,7 @@ print("Расстояние между точками в градусах", dist
 distanse2=round(math.radians(distanse))
 
 print("Расстояние между точками в радианах", distanse2)
+
 
 
 
@@ -233,6 +235,7 @@ print("В дюймах:", b)
 print("В ярдах:", c)
 
 print("В милях:", d)
+
 
 
 
@@ -514,163 +517,292 @@ if NOTE == "B8":
     
 ................................................
 z=float(input("Введите рейтинг сотрудника: "))
+
 if z * 2400.00 == 0 :
+
     print("Низкий уровень.\nСумма прибавки - 0$.")
+    
 elif z * 2400.00 ==960 :
+
     print("Удовлетворительный уровень.\nСумма прибавки - 960$.") 
+    
 elif z * 2400.00 == 1440 :
+
     print("Высокий уровень.\nСумма прибавки - 1440$.")
+    
 elif z * 2400.00 > 1440 :
+
     print("Высокий уровень.\nСумма прибавки -", z * 2400.00 ,"$")
 else: 
+
     print("Введите корректный рейтинг!")
     
     
     
 ...............................................
 boc=input("Введите буквенную оценку: ")
+
 if boc == "A+" :
+
     print("Числовая оценка - 4.0")
+    
 elif boc == "A" :
+
     print("Числовая оценка - 4.0")
+    
 elif boc == "A-" :
+
     print("Числовая оценка - 3.7")
+    
 elif boc == "B+" :
+
     print("Числовая оценка - 3.3")
+    
 elif boc == "B" :
+
     print("Числовая оценка - 3.0")
+    
 elif boc == "B-" :
+
     print("Числовая оценка - 2.7")
+    
 elif boc == "C+" :
+
     print("Числовая оценка - 2.3")
+    
 elif boc == "C" :
+
     print("Числовая оценка - 2.0")
+    
 elif boc == "C-" :
+
     print("Числовая оценка - 1.7")
+    
 elif boc == "D+" :
+
     print("ЧИсловая оценка - 1.3")
+    
 elif boc == "D" :
+
     print("ЧИсловая оценка - 1.0")
+    
 elif boc == "F" :
+
     print("ЧИсловая оценка - 0")
+    
 else:
+
     print("Введите правильную буквенную оценку!")
     
     
     
 .........................................
 MAG=float(input("Введите магнитуду: "))
+
 if MAG < 2.0:
+
     print("Минимальное.")
+    
 elif MAG >= 2.0 and MAG <= 3.0:
+
     print("Очень слабое.")
+    
 elif MAG >= 3.0 and MAG <= 4.0:
+
     print("Слабое.")
+    
 elif MAG >= 4.0 and MAG <= 5.0:
+
     print("Промежуточное.")
+    
 elif MAG >= 5.0 and MAG <= 6.0:
+
     print("Умеренное.")
+    
 elif MAG >= 6.0 and MAG <= 7.0:
+
     print("Сильное.")
+    
 elif MAG >= 7.0 and MAG <= 8.0:
+
     print("Очень сильное.")
+    
 elif MAG >= 8.0 and MAG <= 10.0:
+
     print("Огромное.")
+    
 elif MAG >= 10.0:
+
     print("Разрушительное.")
     
     
     
     
 ..................................
+
 import math
+
 a=float(input("Введите значение a: "))
+
 b=float(input("Введите значение b: "))
+
 c=float(input("Введите значение c: "))
+
 D1=((b**2)-4*a*c)
+
 if D1 < 0:
+
     print("Функция не имеет корней.")
+    
 elif D1 == 0:
+
     D = math.sqrt(D1)
+    
     x1 =(-b+D)/(2*a)
+    
     x2 =(-b-D)/(2*a)
+    
     print("Функция имеет один корней.")
+    
     print ("x=", x1)
+    
 else:
+
     D = math.sqrt(D1)
+    
     x1 =(-b+D)/(2*a)
+    
     x2 =(-b-D)/(2*a)
+    
     print("Функция имеет два корня.")
+    
     print ("x1=", x1, "x2=", x2)
 
 
 
 ...................................
+
 choc=float(input("Введите числовую оценку: "))
+
 if choc == 0 :
+
+
     print("Буквенная оценка - F ")
+    
 elif choc >= 0 and choc < 1.0:
+
     print("Буквенная оценка - D ")
+    
 elif choc >= 1.0 and choc < 1.3:
+
     print("Буквенная оценка - D+ ")
+    
 elif choc >= 1.3 and choc < 1.7:
+
     print("Буквенная оценка - C- ")
+    
 elif choc >= 1.7 and choc < 2.0:
+
     print("Буквенная оценка - C")
+    
 elif choc >= 2.0 and choc < 2.3:
+
     print("Буквенная оценка - C+")
+    
 elif choc >= 2.3 and choc < 2.7:
+
     print("Буквенная оценка - B- ")
+    
 elif choc >= 2.7 and choc < 3.0:
+
     print("Буквенная оценка - B")
+    
 elif choc >= 3.0 and choc < 3.3:
+
     print("Буквенная оценка - B+")
+    
 elif choc >= 3.3 and choc < 3.7:
+
     print("Буквенная оценка - A- ")
+    
 elif choc >= 3.7 and choc < 4.0:
+
     print("Буквенная оценка - A ")
+    
 elif choc >= 4.0:
+
     print("Буквенная оценка - A+ ")
+    
 ...................................
 
 
 
 
 fraza = input("Введите фразу: ")
+
 sh = 3
+
 B = " "
+
 for i in fraza:
+
     if i.isupper():
+    
         i1 = ord(i)
+        
         i2 = ord(i) + ord("A")
+        
         i3 = (i2 + sh) % 26
+        
         i4 =  i3 + ord("A")
+        
         i5 = chr(i4)
+        
         B = B + i5
+        
     else:
+    
         i1 = ord(i)
+        
         i2 = ord(i) + ord("A")
+        
         i3 = (i2 + sh) % 26
+        
         i4 =  i3 + ord("A")
+        
         i5 = chr(i4)
+        
         B = B + i5
+        
 print("Шифр:",B)
+
 ......................................
 
 
 
 
 fraza = input("Введите фразу: ")
+
 shag = 3
+
 B = ""
+
 for i in fraza :
+
         i1 = ord(i)
+        
         i2 = ord(i) - ord("A")
+        
         i3 = (i2 - sh) % 26
+        
         i4 =  i3 + ord("A")
+        
         i5 = chr(i4)
+        
         B = B + i5
-print("Шифр:",  B)        
+        
+print("Шифр:",  B)   
+
 .......................................
 
 
