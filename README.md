@@ -8,4 +8,4 @@
 [лр17_73.txt](https://github.com/KasumovZ/IT-11-22/files/10273073/17_73.txt)
 [лр22.txt](https://github.com/KasumovZ/IT-11-22/files/10273074/22.txt)
 [лр23.txt](https://github.com/KasumovZ/IT-11-22/files/10273075/23.txt)
-https://sites.google.com/d/1un2CuODeR6fHLmCIPDY-V5s3wg-MESfh/p/1QQmBI6n4f4KExHl0QYDg-E0k0HfEpUHF/edit
+
