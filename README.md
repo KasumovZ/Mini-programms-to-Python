@@ -44,179 +44,289 @@ print("Площадь %.10f акров." % S)
 
 
 5
+
 a=float(input("Введите количество бутылок объемом 1 литр или меньше:"))
+
 b=float(input("Введите количество бутылок большего объема:"))
+
 a1=(a*0.10)
+
 b1=(b*0.25)
+
 c=(a1+b1)
+
 print("Сумма выручки: %.2f $" % c)
 
-
 6
+
 import math
+
 summa=float(input("Введите сумму заказа:"))
+
 a=((summa/100)*15)
+
 b=(summa-a)
+
 c=((b/100)*18)
+
 d=(a+c)
+
 print("Налог: %.2f" %a)
+
 print("Чаевые: %.2f" %c)
+
 print("Итог: %.2f" %d)
 
 
 
 7
+
 import math
+
 n=float(input("Введите число:"))
+
 summa=((n)*(n+1))/2
+
 print("Сумма положительных натуральных чисел:", summa)
 
 
-
 8
+
 import math
+
 a=float(input("Введите количество сувенир:"))
+
 b=float(input("Введите количество безделушек:"))
+
 a1=(a*75)
+
 b1=(b*112)
+
 c=a1+b1
+
 print("Вес сувениров:", a1)
+
 print("Вес безделушек:", b1)
+
 print("Общий вес:", c)  
 
 
 9
+
 import math
+
 a=float(input("Введите счет в банке:"))
+
 prosent=(a/100)*4
+
 year1=(a+prosent)
+
 year2=(year1+prosent)
+
 year3=(year2+prosent)
+
 print("Сумма на счету после первого года: %.2f" %year1)
+
 print("Сумма на счету после второго года: %.2f" %year2)
+
 print("Сумма на счету после третьего года: %.2f" %year3)
 
 
 
 10
+
 import math
+
 a=float(input("Введите первое целое число:"))
+
 b=float(input("Введите второе целое число:"))
+
 c=(a+b)
+
 d=(a-b)
+
 e=(a*b)
+
 f=(a/b)
+
 g=(a%b)
+
 h=math.log10(a)
+
 i=(a**b)
+
 print("Сумма:", c)
+
 print("Разность:", d)
+
 print("Произведение:", e)
+
 print("Частное:", f)
+
 print("Остаток от частного:", g)
+
 print("Log10", h)
+
 print("Результат взведения числа a d степень b:", i)
 
 
 11
+
 toplivo=float(input("Введите показатель потребления:")) 
+
 l=(235.22/toplivo)
+
 print("Итог",l,"Л/100")
 
 
 
 12
+
 a1=float(input("Введите широту 1:"))
+
 b1=float(input("Введите долготу 1:")) 
+
 a2=float(input("Введите широту 2:")) 
+
 b2=float(input("Введите долготу 2:")) 
+
 import math
+
 distanse=round(6371.01*math.acos(math.sin(a1)*math.sin(a2)+math.cos(a1)*math.cos(a2)*math.cos(b1-b2)),2)
+
 print("Расстояние между точками в градусах", distanse)
+
 distanse2=round(math.radians(distanse))
+
 print("Расстояние между точками в радианах", distanse2)
 
 
 
 
 13
+
 a=float(input("Введите рост в футах:"))
+
 b=float(input("Введите рост в дюймах:"))
+
 v=(a*12+b)*2.54
+
 print("Ваш рост", v ,"см")
 
 
 
 
 14
+
 import math
+
 a=float(input("Введите расстояние в футах:"))
+
 b=a*12
+
 c=float(a*3.0)
+
 d=round(a/5.280)
+
 print("В дюймах:", b)
+
 print("В ярдах:", c)
+
 print("В милях:", d)
 
 
 
 16
+
 import math
+
 r=float(input("Введите радиус:"))
+
 area=(math.pi*(r**2))
+
 volume=(4/3*(math.pi*(r**3)))
+
 print("Площадь круга:",area)
+
 print("Объём шара:",volume)
 
 
 
 
 17
+
 import math
+
 m=float(input("Введите объём воды:"))
+
 dT=float(input("Введите разницу температур:"))
+
 q=m*4.186*dT
+
 cent=8.9
+
 z=q*2.777e-7
+
 v=z*cent
+
 print("Количество энергии:", q, "Дж")
+
 print("Cтоимость нагрева воды: %.10f центов." % v)
 
 
 
 
 18
+
 import math
+
 R=float(input("Введите радиус цилиндра:"))
+
 h=float(input("Введите высоту цилиндра:"))
+
 V=(math.pi*R**2*h)
+
 print("Объём цилиндра %.1f" % V)
 
 
 
 
 19
+
 import math
+
 d=float(input("Введите дистанцию:"))
+
 V0=0
+
 a=9.8
+
 Vi=math.sqrt(V0+2*a*d)
+
 print("Скорость объекта:", Vi)
 
 
 
 
 20
+
 P=float(input("Введите давление в паскалях:"))
+
 V=float(input("Введите лбъём в литрах:"))
+
 T1=float(input("Введите температуру в цельсиях:"))
+
 R=8.314
+
 T=T1+273,15
+
 for=P*V=n*R*T
 
 
 21
+
 NOTE = input("Введите номер ноты :")
+
 if NOTE == "C0":
     C0 = (261.63 / 16)
     print("Частота ноты -", C0, "Гц")
