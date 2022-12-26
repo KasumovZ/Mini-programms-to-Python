@@ -1,6 +1,5 @@
 # IT-11-22
 [лр2.txt](https://github.com/KasumovZ/IT-11-22/files/10273067/2.txt)
-
 [лр3.txt](https://github.com/KasumovZ/IT-11-22/files/10273068/3.txt)
 
 [лр4.txt](https://github.com/KasumovZ/IT-11-22/files/10273069/4.txt)
